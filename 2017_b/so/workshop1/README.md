@@ -22,6 +22,7 @@ El primer taller del curso sistemas operativos trata sobre el sistema operativo 
 Proporcione ejemplos de los archivos que se encuentran en cada directorio (explique al menos un
 archivo por directorio).
 | Directorio | Función |
+|------|------|
 | /bin | Este directorio es un directorio estático, almacena todos los ejecutables de usuario parecidos a los archivos .exe |
 | /sbin | Al igual que bin contiene los programas ejecutables que solo son ejecutables por el root user |
 | /boot | Contiene los archivos de configuración de arranque necesarios para que el kernel pueda iniciar su funcionamiento |
@@ -32,14 +33,14 @@ archivo por directorio).
 | /home | directorio personal para cada usuario |
 | /initrd | Este directorio se emplea cuando se va a iniciar un arranque personalizado |
 | /lib | Contiene las librerías necesarias para la ejecución de binarios |
-| /media | 
+| /media | |
 | /opt | Este directorio es opcional contiene aplicaciones  externas |
 | /root | Directorio de super usuario, solo el usuario root puede emplearlo |
-| /srv |
-| /sys |
+| /srv | |
+| /sys | |
 | /tmp | Contiene los archivos temporales creados por el sistema y por los usuarios |
-| /usr |
-| /mnt |
+| /usr | |
+| /mnt | |
 
 
 | Directorio   | Archivo ejemplo | Descripción del contenido del directorio  |
