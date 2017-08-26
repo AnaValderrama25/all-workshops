@@ -107,6 +107,6 @@ El informe debe ser entregado en formato README.md y debe ser subido a un reposi
 * https://www.tecmint.com/20-advanced-commands-for-middle-level-linux-users/
 * https://www.lifewire.com/linux-terminal-commands-rock-your-world-2201165
 
-[1]: images/Captura.png
-[2]: images/Captura2.png
-[3]: images/Captura3.png
+[1]: Captura.png
+[2]: Captura2.png
+[3]: Captura3.png
