@@ -64,15 +64,27 @@ archivo por directorio).
 | tmp | hannie.txt | Archivo de texto |
 | usr | src | Subdirectorio de Linux que contiene las fuentes del Kernel y documentación |
 | mnt | mount /dev/cdrom /mnt/cdrom | Monta un archivo en un cdrom accediendo al directorio de archivos contenidos en cdrom |
-| a directory | an example file | an awesome description |
+
 
 2. En una tabla como se muestra a continuación escriba 10 comandos de Linux no visto en clase. Puede incluir comandos que funcionan una vez han sido instalados con yum
 
 | Comando   | Usuario | Descripción   |
 |------|------|------|
-| $ an awesome command | who call it | an awesome description |
+| find -name .sh | root | Busca archivos dado un directorio |
+| man | root | Proporciona documentación online de todas las opciones posibles de un comando |
+| kill | root | Corta procesos que no son relevantes o que no responden |
+| alias | root | Deja signar nombre a comandos |
+| free | root | Proporciona información de memoria | 
+| fortune | root | Adivina tu suerte | 
+| htop | cualquiera | para observar los procesos que se estan ejecutando y administrarlos |
+| youtube-dl url-to-video | cualquiera | Descarga videos de youtube mediante su url |
+| touch testfile.txt | Permite crear archivos como mkdir crea directorios |
+| command & | Ejecuta comandos sin mostrar todo su proceso, solo errores y algunas notificaciones (commands in background) |
+
 
 3. ¿Cuál es la utilidad del comando printenv en Linux?, Investigue acerca de la creación de variables de ambiente en Linux y como hacerlas permanentes. Cree una variable de ambiente, hágala permanente y muestre evidencias del funcionamiento.
+El comando printenv despliega en pantallalas variables de ambiente, se puede especifcar con un parametro en cuyo caso solo despliegará el valor de la variable requerida. 
+Para hacerla permanente se accede a etc/environment desde el usuario root y luego con el comando vi y llamando al mismo directorio (vi /etc/environment) se  agrega la variable.
 
 ### Nota
 
@@ -86,4 +98,7 @@ El informe debe ser entregado en formato README.md y debe ser subido a un reposi
 * https://computernewage.com/2015/06/14/el-arbol-de-directorios-de-linux-al-detalle-que-contiene-cada-carpeta/
 * https://help.ubuntu.com/kubuntu/desktopguide/es/directories-file-systems.html
 * http://www.thegeekstuff.com/2010/09/linux-file-system-structure/?utm_source=tuicool
+* https://www.tecmint.com/20-funny-commands-of-linux-or-linux-is-fun-in-terminal/
 * http://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/index.html
+* https://www.tecmint.com/20-advanced-commands-for-middle-level-linux-users/
+* https://www.lifewire.com/linux-terminal-commands-rock-your-world-2201165
