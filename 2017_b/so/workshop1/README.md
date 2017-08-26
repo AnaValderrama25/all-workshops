@@ -31,24 +31,39 @@ archivo por directorio).
 | proc | Este directorio contiene la información sobre el estado del sistema y sus procesos |
 | var | Contiene los archivos con información del sistema. Archivos de registros y bases de datos |
 | etc | Contiene archivos de configuración que no contiene binarios |
-| home | directorio personal para cada usuario |
+| home | Directorio personal para cada usuario |
 | initrd | Este directorio se emplea cuando se va a iniciar un arranque personalizado |
 | lib | Contiene las librerías necesarias para la ejecución de binarios |
-| media | 
+| media | Directorio temporal para dispositivos removibles |
 | opt | Este directorio es opcional contiene aplicaciones  externas |
 | root | Directorio de super usuario, solo el usuario root puede emplearlo |
-| srv | 
-| sys | 
+| srv | Contiene servicios especificos de datos del servidor |
+| sys | Contiene archivos del sistema |
 | tmp | Contiene los archivos temporales creados por el sistema y por los usuarios |
-| usr | 
-| mnt | 
+| usr | Aplicaciones y archivos a los que puede acceder la mayoría de los usuarios |
+| mnt | Corresponde a los sistemas de archivos montados manualmente en el disco duro |
 
 
 | Directorio   | Archivo ejemplo | Descripción del contenido del directorio  |
 |------|------|------|
-| bin | 
-| boot | 
-| dev | 
+| bin | dmesg | Imprime o controla el mensaje de buffer del kernel |
+| sbin | fasthalt | Detiene el sistema sin revisar los discos |
+| boot | map | Contiene la ubicación del kernel |
+| dev | lp0| Primer puerto paralelo corresponde a dispositivos como impresoras, escaners, entre otros |
+| proc | devices | Lista los drivers de los dispositivos que estan actualmente corriendo en el kernel |
+| var | db | Banco de almacenamiento de datos |
+| etc | autoconf | Se crean scripts para configurar los paquetes de código fuente |
+| home | ccm | Carpeta con diagramas sdl de la clase |
+| initrd | /dev/initrd | Actúa como subdirectorio para iniciar la RAM |
+| lib | modules/'kernel-version' | Contiene todos los módulos del kernel |
+| media | cdrecorder | CD writer |
+| opt | Kylix | Paquete externo, software que no está instalado por defecto |
+| root | anaconda-ks.cfg | Archivo de configuración en el usuario root |
+| srv | wwww | Relaciona archivos de un servidor web al sistema |
+| sys | Contiene archivos del sistema |
+| tmp | hannie.txt | Archivo de texto |
+| usr | src | Subdirectorio de Linux que contiene las fuentes del Kernel y documentación |
+| mnt | mount /dev/cdrom /mnt/cdrom | Monta un archivo en un cdrom accediendo al directorio de archivos contenidos en cdrom |
 | a directory | an example file | an awesome description |
 
 2. En una tabla como se muestra a continuación escriba 10 comandos de Linux no visto en clase. Puede incluir comandos que funcionan una vez han sido instalados con yum
@@ -71,3 +86,4 @@ El informe debe ser entregado en formato README.md y debe ser subido a un reposi
 * https://computernewage.com/2015/06/14/el-arbol-de-directorios-de-linux-al-detalle-que-contiene-cada-carpeta/
 * https://help.ubuntu.com/kubuntu/desktopguide/es/directories-file-systems.html
 * http://www.thegeekstuff.com/2010/09/linux-file-system-structure/?utm_source=tuicool
+* http://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/index.html
