@@ -90,6 +90,10 @@ Para hacerla permanente se accede a etc/environment desde el usuario root y lueg
 
 El informe debe ser entregado en formato README.md y debe ser subido a un repositorio de github. El repositorio de github debe ser un fork de https://github.com/ICESI-Training/so-workshop1 y para la entrega deberá hacer un Pull Request (PR) respetando la estructura definida. El código fuente y la url de github deben incluirse en el informe.  
 
+![][1]
+![][2]
+![][3]
+
 ## Referencias
 
 * https://github.com/ICESI/so-commands/tree/master/centos7
@@ -102,3 +106,7 @@ El informe debe ser entregado en formato README.md y debe ser subido a un reposi
 * http://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/index.html
 * https://www.tecmint.com/20-advanced-commands-for-middle-level-linux-users/
 * https://www.lifewire.com/linux-terminal-commands-rock-your-world-2201165
+
+[1]: images/Captura.png
+[2]: images/Captura2.png
+[3]: images/Captura3.png
